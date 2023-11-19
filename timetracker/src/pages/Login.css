@@ -1,0 +1,14 @@
+.loginContainer{
+    position: relative;
+}
+
+.notification{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff1a45;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
