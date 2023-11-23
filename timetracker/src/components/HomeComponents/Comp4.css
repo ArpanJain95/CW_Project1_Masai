@@ -1,0 +1,51 @@
+.comp4-wrapper{
+    width: 85%;
+    margin-inline: auto;
+    padding-block: 70px 70px;
+}
+
+.comp4Top{
+    text-align: center;
+}
+
+.comp4Top h2{
+    font-size: 14px;
+    color: #ed565a;
+}
+
+.comp4Top h3{
+    font-size: 40px;
+    color: #242954;
+}
+
+.comp4Top p{
+    font-size: 16px;
+    margin-inline: 15%;
+    margin-top: 5px;
+    color: #636587;
+}
+
+.comp4Top a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #3a609b;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.comp4Top a:hover{
+    gap: 10px;
+}
+
+.comp4Bottom{
+    width: 40%;
+    margin: auto;
+}
+
+.imageBox img{
+    width: 40px;
+    margin-block: 50px;
+    margin-inline: 10px;
+}

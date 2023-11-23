@@ -1,0 +1,17 @@
+.comp6-wrapper{
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: #e6e6e6;
+}
+
+.comp6Top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp6Top h3{
+    font-size: 35px;
+    color: #242954;
+    text-align: center;
+}

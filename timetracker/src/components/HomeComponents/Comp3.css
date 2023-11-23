@@ -1,0 +1,33 @@
+.comp3-wrapper{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.comp3Title{
+    color: #ffffff;
+    margin-block: 10px 20px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 5px;
+}
+
+.comp3Box{
+    width: 100%;
+}
+
+.comp3Box ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 45px;
+    padding: 15px;
+    margin-block: 10px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.comp3Box img{
+    width: 150px;
+}

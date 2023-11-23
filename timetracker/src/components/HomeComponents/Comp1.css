@@ -1,0 +1,83 @@
+#comp1Container{
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.comp1Front{
+    height: 520px;
+    position: relative;
+    display: flex;
+    width: 85%;
+    margin-inline: auto;
+    align-items: center;
+}
+
+.leftCont{
+    width: 55%;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 2;
+}
+
+.leftContP1{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ed565a;
+}
+
+.leftContP2{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #636587;
+}
+
+.tagLine{
+    color: #242954;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.leftContLink{
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(to right, #ff1a45, #fdb2b2);
+    border-radius: 8px;
+    padding: 10px 25px;
+    display: flex;
+    gap: 5px;
+    width: 135px;
+    transition: all 0.3s ease-in-out;
+}
+
+.leftContLink:hover{
+    gap: 15px;
+}
+
+.linkDiv{
+    margin-top: 20px;
+}
+
+.rightCont{
+    width: 45%;
+}
+
+.rightCont img{
+    width: 100%;
+}
+
+.bannerEleDiv{
+    width: 100%;
+    height: 21rem;
+    position: absolute;
+    bottom: -.1rem;
+    left: 0;
+    z-index: 2;
+    pointer-events: none;
+    background-image: url('../Store/Comp1Ele.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100% 11rem
+}

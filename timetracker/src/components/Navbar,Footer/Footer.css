@@ -1,0 +1,89 @@
+/* Footer Top */
+
+.footer-wrapper{
+    width: 100%;
+    padding-block: 50px;
+    background-color: #564faa;
+}
+
+.footer-container{
+    width: 85%;
+    margin: auto;
+}
+
+hr{
+    margin-block: 10px;
+}
+
+.fooTop{
+    display: flex;
+    align-items: baseline;
+}
+
+.fooLogo{
+    height: 26px;
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+
+.fooLeft{
+    width: 40%;
+}
+
+.fooLeft hr{
+    margin-bottom: 50px;
+}
+
+.fooLeft,
+.fooLeft p,
+.fooLeft li,
+.fooLeft a,
+.fooRight li,
+.fooRight,
+.fooRight a{
+    list-style-type: none;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.fooLeft li:hover,
+.fooRight li:hover{
+    text-decoration: underline;
+}
+
+.fooLeft h5,
+.fooRight h5{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.fooRight{
+    margin-left: 10%;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/* Footer bottom */
+
+.fooBottom{
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.socialLogo{
+    height: 18px;
+    margin-inline: 8px;
+}
+
+.fooBottomRight,
+.fooBottomRight a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}

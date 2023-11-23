@@ -1,0 +1,8 @@
+/* .acoSlider-wrapper{
+    width: 100%;
+} */
+
+.acoSlider-wrapper img{
+    margin-left: 60px;
+    width: 160%;
+}

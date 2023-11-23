@@ -24,7 +24,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className={`navbar ${scrolling ? 'scrolling' : ''}`}>
+      <div className={`navbar ${scrolling ? 'scrolling' : '' }`}>
         <div>
           <Link to="/" >
             <img src={Logo} className='navLogo' alt="Navbar Logo" />
@@ -38,7 +38,7 @@ export const Navbar = () => {
             <Link to="/blog" className='menuButton1'>Blog</Link>
           </div>
           <div className='featuresStyle' onMouseEnter={()=>setFeaturestab(true)} onMouseLeave={()=>setFeaturestab(false)}>
-            <Link to="/features" className='menuButton1'>Features</Link>
+            <Link to="/#" className='menuButton1'>Features</Link>
             {featurestab && <FeaturesTab/>}
           </div>
           <div>

@@ -2,7 +2,7 @@ import { Navbar } from "./components/Navbar,Footer/Navbar";
 import { AllRoutes } from "./components/AllRoutes";
 import "./App.css";
 import { useLocation } from "react-router-dom";
-
+import { Footer } from "./components/Navbar,Footer/Footer";
 
 function App() {
   const location = useLocation();
@@ -14,6 +14,7 @@ function App() {
       <>
         {!isLoginPage && !isSignupPage && !isDashboardPage && <Navbar />}
         <AllRoutes />
+        {!isLoginPage && !isSignupPage && !isDashboardPage && <Footer />}
     </>
   )
 }

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import "../components/Notification.css";
 
 const Notification = ({ message, onHide }) => {
     useEffect(() => {

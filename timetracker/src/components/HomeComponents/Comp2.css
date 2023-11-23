@@ -1,0 +1,33 @@
+#comp2Container{
+    margin: 0;
+    padding: 70px 0px 0px 0px;
+    background-color: #564FAA;
+}
+
+.comp2Top{
+    margin-inline: auto;
+    width: 80%;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.comp2Top p{
+    width: 80%;
+    margin: auto;
+}
+
+.comp2mid{
+    width: 85%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 140px;
+}
+
+.accordionComp{
+    width: 100%;
+    height: auto;
+}

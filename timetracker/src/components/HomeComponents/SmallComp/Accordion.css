@@ -1,0 +1,40 @@
+.accordion-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.first-info{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+header span{
+    color: #abb9f0;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.description{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #abb9f0;
+    overflow: hidden;
+    line-height: 0px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.opentab{
+    opacity: 1;
+    line-height: 23px;
+}
