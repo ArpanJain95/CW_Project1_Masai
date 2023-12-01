@@ -59,11 +59,12 @@ export const Accordion = () => {
                             <p className={`description ${accordion===index ? 'opentab' : '' }`}>
                                 {item.description}
                             </p>
+                            {accordion === index && <AcoSlider activeAccordionIndex={accordion} className='acoSliderComp slideResponsive' />}
                         </div>
                     ))
                 }
             </div>
-            <AcoSlider activeAccordionIndex={accordion} className='acoSliderComp' />
+            <AcoSlider activeAccordionIndex={accordion} className='acoSliderComp slideRegular' />
         </div>
     )
 }

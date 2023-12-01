@@ -39,8 +39,16 @@ header{
     line-height: 23px;
 }
 
-@media (max-width: 960px){
-    .accordion-wrapper{
-        flex-direction: column;
+.slideResponsive{
+    display: none;
+}
+
+@media (max-width: 770px){
+    .slideResponsive{
+        display: block;
+    }
+
+    .slideRegular{
+        display: none;
     }
 }

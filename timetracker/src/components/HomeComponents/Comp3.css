@@ -31,3 +31,31 @@
 .comp3Box img{
     width: 150px;
 }
+
+@media (max-width: 1080px){
+    .comp3Box img{
+        width: 100px;
+    }
+}
+
+@media (max-width: 770px){
+    .comp3Box img{
+        width: 80px;
+    }
+}
+
+@media (max-width: 590px){
+    .comp3Box img{
+        width: 60px;
+    }
+
+    .comp3Title h2{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 440px){
+    .comp3Box img{
+        width: 40px;
+    }
+}

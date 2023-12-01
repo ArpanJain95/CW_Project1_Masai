@@ -43,4 +43,9 @@
     .comp2mid{
         width: 90%;
     }
+
+    .comp2Top h1{
+        font-size: 28px;
+        line-height: 35px;
+    }
 }
