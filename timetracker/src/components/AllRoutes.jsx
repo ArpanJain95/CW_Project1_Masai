@@ -8,6 +8,7 @@ import { Tryitfree } from "../pages/Tryitfree";
 import { Login } from "../pages/Login";
 import { Signup } from "../pages/Signup";
 import { Dashboard } from "../pages/Dashboard";
+import { Projects } from "../pages/Projects";
 
 export const AllRoutes = () => {
     return (
@@ -20,6 +21,7 @@ export const AllRoutes = () => {
           <Route path="/login" element={<Login/>}/>
           <Route path="/signup" element={<Signup/>}/>
           <Route path="/dashboard" element={<Dashboard/>}/>
+          <Route path="/projects" element={<Projects/>}/>
         </Routes>
     )
 }

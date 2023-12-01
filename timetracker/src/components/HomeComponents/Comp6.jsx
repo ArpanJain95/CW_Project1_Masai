@@ -16,3 +16,5 @@ export const Comp6 = () => {
         </div>
     )
 }
+
+export default Comp6

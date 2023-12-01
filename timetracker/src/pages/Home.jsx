@@ -10,7 +10,6 @@ import '../pages/Home.css';
 
 export const Home = () => {
     const value = useContext(AppContext)
-    console.log(value);
     return (
         <div className='homeContainer'>
             <Comp1 />

@@ -1,7 +1,11 @@
 import React from 'react'
+import '../pages/Integrations.css'
+import { Comp1Int } from '../components/IntegrationsComponents/Comp1Int';
 
 export const Integrations = () => {
     return (
-        <div>Integrations</div>
+        <div className='integrationsContainer'>
+            <Comp1Int />
+        </div>
     )
 }

@@ -70,14 +70,108 @@
 
 .bannerEleDiv{
     width: 100%;
-    height: 21rem;
+    height: 28rem;
     position: absolute;
-    bottom: -.1rem;
+    bottom: 0rem;
     left: 0;
     z-index: 2;
     pointer-events: none;
     background-image: url('../Store/Comp1Ele.png');
     background-repeat: no-repeat;
     background-position: bottom left;
-    background-size: 100% 11rem
+    background-size: 100% 12rem
+}
+
+@media (max-width: 1080px){
+    .bannerEleDiv{
+        background-size: 100% 13rem
+    }
+}
+
+@media (max-width: 960px) {
+    #comp1Container{
+        height: 400px;
+    }
+    
+    .comp1Front{
+        height: 400px;
+        width: 92%;
+        align-items: normal;
+    }
+
+
+    .leftContP1{
+        font-size: 12px;
+    }
+
+    .tagLine{
+        font-size: 28px;
+    }
+
+    .leftContP2{
+        font-size: 14px;
+    }
+
+    .leftContLink{
+        border-radius: 6px;
+        padding: 8px 22px;
+        gap: 3.5px;
+        width: 120px;
+        font-size: 14px;
+    }
+    
+    .linkDiv{
+        margin-top: 18px;
+    }
+
+    .bannerEleDiv{
+        background-size: 100% 12rem
+    }
+}
+
+@media (max-width: 900px){
+    .comp1Front{
+        height: 350px;
+        width: 92%;
+        align-items: center;
+    }
+
+    .leftContP1{
+        font-size: 10px;
+    }
+
+    .tagLine{
+        font-size: 25px;
+    }
+
+    .leftContP2{
+        font-size: 12px;
+    }
+
+    .leftContLink{
+        border-radius: 5px;
+        padding: 7px 20px;
+        gap: 3px;
+        width: 100px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 740px){
+    .rightCont{
+        display: none;
+    }
+
+    .leftCont{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .comp1Front{
+        margin-right: 0;
+    }
+
+    .leftCont h1{
+        line-height: 30px;
+    }
 }

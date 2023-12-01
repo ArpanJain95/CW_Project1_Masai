@@ -1,0 +1,14 @@
+.popContainer{
+    width: 85%;
+    margin: auto;
+}
+
+.dashAddEventButton{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-left: 100;
+    border: none;
+    cursor: pointer;
+}

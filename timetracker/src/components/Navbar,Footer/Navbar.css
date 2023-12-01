@@ -1,4 +1,5 @@
-.navbar{
+.navbar,
+.navDashboard-container{
     position: fixed;
     top: 0;
     width: 100%;
@@ -7,12 +8,18 @@
     justify-content: space-between;
     height: 120px;
     align-items: center;
-    background-color: #ffffff;
     transition: height 0.3s ease-in-out;
+}
+
+.navDashboard-container{
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 25px 50px -12px;
 }
 
 .scrolling{
     height: 80px;
+    background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
@@ -22,19 +29,56 @@
     width: auto;
 }
 
+.navDashboard-left,
+.navDashboard-menu,
+.navDashboard-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navDashboard-menu a{
+    text-decoration: none;
+}
+
+.navDashboard-right{
+    margin-right: 70px;
+}
+
 .navMenu{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-right: 70px;
+    margin-right: 50px;
     height: 30px;
     gap: 30px;
     font-size: 15px;
     font-weight: 600;
 }
 
+.navHamMenu{
+    text-align: center;
+    width: 100%;
+}
+
+.hamburgerMenu{
+    display: none;
+}
+
 .navbar a{
     text-decoration: none;
+}
+
+.navButton1{
+    color: #a3a3a3;
+    border: none;
+    background: none;
+    padding-top: 2px;
+}
+
+.navButton1:hover{
+    color: #818080;
+    cursor: pointer;
 }
 
 .menuButton1{
@@ -54,14 +98,97 @@
     text-decoration: underline;
 }
 
-.loginButton{
+.loginButton,
+.upgradeButton{
     color: #ffffff;
     background: linear-gradient(to right, #ff1a45, #fdc5c5);
     border-radius: 5px;
     padding: 5px 20px;
+    border: none;
+    cursor: pointer;
 }
 
-.loginButton:hover{
+.loginButton:hover,
+.upgradeButton:hover{
     background: #ff1a45;
 }
 
+.char{
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #ff1a45;
+    cursor: pointer;
+}
+
+.icon{
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: #04bda4;
+    color: #ffffff;
+    padding-top: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.navHamMenu{
+    border: none;
+    width: 30px;
+    height: 30px;
+    background: none;
+    margin-right: 60px;
+    color: #a3a3a3;
+}
+
+.navHamBox{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    background-color: #ffffff;
+}
+
+.hamNavContainer{
+    display: none;
+}
+
+@media (max-width: 970px){
+    .navMenu{
+        font-size: 12px;
+    }
+
+    .navLogo{
+        height: 20px;
+    }
+}
+
+@media (max-width: 750px){
+    .navMenu{
+        display: none;
+    }
+
+    .hamburgerMenu{
+        display: block;
+    }
+
+    .hamNavContainer{
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+        padding-block: 20px;
+    }
+
+    .hamNavContainer div{
+        margin-block: 10px;
+    }
+
+    .hamNavContainer a{
+        text-decoration: none;
+    }
+}

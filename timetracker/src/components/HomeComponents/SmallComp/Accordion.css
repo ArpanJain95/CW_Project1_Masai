@@ -38,3 +38,9 @@ header{
     opacity: 1;
     line-height: 23px;
 }
+
+@media (max-width: 960px){
+    .accordion-wrapper{
+        flex-direction: column;
+    }
+}

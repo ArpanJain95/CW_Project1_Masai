@@ -1,0 +1,49 @@
+.comp1BlogTop{
+    background-color: #3a609b;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 15px 60px;
+    margin-bottom: 50px;
+}
+
+.comp1BlogTop h1{
+    font-size: 14px;
+}
+
+.blogBannerImg{
+    height: 180px;
+    width: auto;
+}
+
+.comp1BlogTop h2{
+    font-size: 36px;
+}
+
+/* Bottom */
+
+.comp1BlogBottom{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-block: 100px;
+}
+
+.blogCard{
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,.11);
+    overflow: hidden;
+}
+
+.blogImgCont{
+    padding-inline: 35px;
+    box-sizing: border-box;
+    /* background-color: #3a609b; */
+}
+
+.blogCardText{
+    padding: 20px 6% 25px;
+    color: #242954;
+}

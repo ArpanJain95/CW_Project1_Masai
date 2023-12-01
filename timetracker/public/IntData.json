@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "title": "Airtable",
+    "subtitle": "Powerful organizational spreadsheets that works exactly the way you want.",
+    "logoPath": "Integrations/Airtable.png"
+  },
+  {
+    "id": 2,
+    "title": "Any.Do",
+    "subtitle": "Any.Do helps you get things done with your friends in a simple & elegant way.",
+    "logoPath": "Integrations/Any.Do.png"
+  },
+  {
+    "id": 3,
+    "title": "Asana",
+    "subtitle": "Asana puts tasks and conversations together to enable teamwork without email.",
+    "logoPath": "Integrations/Asana.png"
+  },
+  {
+    "id": 4,
+    "title": "Azendo",
+    "subtitle": "Simplifies projects planning, documents sharing and teamwork synchronization for both your professional activity and your life.",
+    "logoPath": "Integrations/Azendoo.png"
+  },
+  {
+    "id": 5,
+    "title": "Azure DevOps",
+    "subtitle": "Continuous Delivery Services for teams to share code, track work, and ship software.",
+    "logoPath": "Integrations/AzureDevOps.png"
+  },
+  {
+    "id": 6,
+    "title": "BambooHR",
+    "subtitle": "BambooHr is a software that provides a centralized platform for managing human resources related data",
+    "logoPath": "Integrations/BambooHR.png"
+  },
+  {
+    "id": 7,
+    "title": "Basecamp 2",
+    "subtitle": "Basecamp is a web-based project collaboration tool that allows groups of people to share files.",
+    "logoPath": "Integrations/Basecamp2.png"
+  },
+  {
+    "id": 8,
+    "title": "Basecamp 3",
+    "subtitle": "Basecamp 3 is a web-based project collaboration tool that allows groups of people to share files.",
+    "logoPath": "Integrations/Basecamp3.png"
+  },
+  {
+    "id": 9,
+    "title": "Basecamp 4",
+    "subtitle": "Basecamp 4 is a web-based project collaboration tool that allows groups of people to share files.",
+    "logoPath": "Integrations/Basecamp2.png"
+  },
+  {
+    "id": 10,
+    "title": "Bitbucket",
+    "subtitle": "Bitbucket is a code hosting site, for the Git and Mercurial version control systems.",
+    "logoPath": "Integrations/Bitbucket.png"
+  },
+  {
+    "id": 11,
+    "title": "Coda",
+    "subtitle": "Coda blends the flexibility of a document, the power of a spreadsheet.",
+    "logoPath": "Integrations/Coda.png"
+  },
+  {
+    "id": 12,
+    "title": "Dixa",
+    "subtitle": "Customer service platform that unifies phone, email, chat and messaging apps.",
+    "logoPath": "Integrations/Dixa.png"
+  },
+  {
+    "id": 13,
+    "title": "Evernote",
+    "subtitle": "Create documents, collaborate on projects, and store information all in one place.",
+    "logoPath": "Integrations/Evernote.png"
+  },
+  {
+    "id": 14,
+    "title": "FactorialHr",
+    "subtitle": "Is a comprehensive HR platform that simplifies and streamlines HR processes.",
+    "logoPath": "Integrations/FactorialHr.png"
+  },
+  {
+    "id": 15,
+    "title": "Favro",
+    "subtitle": "Balance power and simplicity in the ideal collaboration app for developers.",
+    "logoPath": "Integrations/Favro.png"
+  },
+  {
+    "id": 16,
+    "title": "Figma",
+    "subtitle": "Cloud-based platform that enables businesses to create custom designs.",
+    "logoPath": "Integrations/Figma.png"
+  },
+  {
+    "id": 17,
+    "title": "Flow",
+    "subtitle": "Manage tasks, share files, have discussions, and capture ideas all in one place.",
+    "logoPath": "Integrations/Flow.svg"
+  },
+  {
+    "id": 18,
+    "title": "Freshdesk",
+    "subtitle": "Freshdesk is an award-winning, online help desk software that allows you to support customers.",
+    "logoPath": "Integrations/Freshdesk.png"
+  },
+  {
+    "id": 19,
+    "title": "GitHub",
+    "subtitle": "GitHub is a web-based hosting service for projects that use the Git revision control system.",
+    "logoPath": "Integrations/GitHub.png"
+  },
+  {
+    "id": 20,
+    "title": "GitLab",
+    "subtitle": "GitLab is a on-premise or hosted Git repository management tool.",
+    "logoPath": "Integrations/GitLab.png"
+  },
+  {
+    "id": 21,
+    "title": "Ring Central",
+    "subtitle": "Conversation platform for teams to plan, share & organize work tasks.",
+    "logoPath": "Integrations/RingCentral.png"
+  },
+  {
+    "id": 22,
+    "title": "Gamil",
+    "subtitle": "Gmail is a free search-based web-mail service by Google.",
+    "logoPath": "Integrations/Gmail.png"
+  },
+  {
+    "id": 23,
+    "title": "Google Calender",
+    "subtitle": "With Google Calendar, its easy to keep track of all your lifes important events in one place.",
+    "logoPath": "Integrations/GoogleCalender.png"
+  },
+  {
+    "id": 24,
+    "title": "Google Docs",
+    "subtitle": "Google Docs is an online word processor, part of Google Drive.",
+    "logoPath": "Integrations/GoogleDocs.png"
+  },
+  {
+    "id": 25,
+    "title": "Google Sheets",
+    "subtitle": "Google Sheets is an online spreadsheet app that lets you create and format spreadsheets.",
+    "logoPath": "Integrations/GoogleSheets.png"
+  },
+  {
+    "id": 26,
+    "title": "Google Slides",
+    "subtitle": "Google Slides is a presentation app offered by Google.",
+    "logoPath": "Integrations/GoogleSlides.png"
+  },
+  {
+    "id": 27,
+    "title": "Google Tasks",
+    "subtitle": "Tasks adds a to-do list to Gmail.",
+    "logoPath": "Integrations/GoogleTasks.png"
+  },
+  {
+    "id": 28,
+    "title": "Google Chat",
+    "subtitle": "Collaborate on Google chat",
+    "logoPath": "Integrations/GoogleChat.png"
+  },
+  {
+    "id": 29,
+    "title": "Google Workspace",
+    "subtitle": "Google Workspace consists of Gmail, Contacts, Calendar, Meet and Chat for communication.",
+    "logoPath": "Integrations/GoogleWorkspace.png"
+  },
+  {
+    "id": 30,
+    "title": "Insightly",
+    "subtitle": "Web-based project and Customer Relationship Management (CRM) application.",
+    "logoPath": "Integrations/Insightly.png"
+  },
+  {
+    "id": 31,
+    "title": "Jira",
+    "subtitle": "JIRA is the leading bug tracking, issue tracking and project management tool.",
+    "logoPath": "Integrations/Jira.png"
+  },
+  {
+    "id": 32,
+    "title": "Linear",
+    "subtitle": "The issue tracking tool you'll enjoy using.",
+    "logoPath": "Integrations/Linear.png"
+  },
+  {
+    "id": 33,
+    "title": "Meistertask",
+    "subtitle": "Collaboration and task management tool on the web.",
+    "logoPath": "Integrations/Meistertask.png"
+  },
+  {
+    "id": 34,
+    "title": "Microsoft To Do",
+    "subtitle": "Microsoft To Do is a task management app to help you stay organized and manage your day-to-day.",
+    "logoPath": "Integrations/MicrosoftToDo.png"
+  },
+  {
+    "id": 35,
+    "title": "Microsoft Planner",
+    "subtitle": "Microsoft Planner lets you easily bring together teams, tasks, documents, and conversations for better results.",
+    "logoPath": "Integrations/MicrosoftPlanner.png"
+  },
+  {
+    "id": 36,
+    "title": "Monday",
+    "subtitle": "Monday is a project management tool your team will actually enjoy using.",
+    "logoPath": "Integrations/Monday.png"
+  },
+  {
+    "id": 37,
+    "title": "Nifty",
+    "subtitle": "Task management app to manage tasks, timelines and docs.",
+    "logoPath": "Integrations/Nifty.png"
+  },
+  {
+    "id": 38,
+    "title": "Notion",
+    "subtitle": "Notion is the all-in-one workspace for notes, project management, documents, and collaboration.",
+    "logoPath": "Integrations/Notion.png"
+  },
+  {
+    "id": 39,
+    "title": "Outlook.Com",
+    "subtitle": "Outlook.com is a webmail service from Microsoft, successor of Hotmail.",
+    "logoPath": "Integrations/Outlook.Com.png"
+  },
+  {
+    "id": 40,
+    "title": "Podio",
+    "subtitle": "Podio lets you build and shape the online workplace most fitting to your role.",
+    "logoPath": "Integrations/Podio.png"
+  },
+  {
+    "id": 41,
+    "title": "QuickBooks",
+    "subtitle": "Use TrackingTime to improve QuickBooks time tracking through Zapier.",
+    "logoPath": "Integrations/QuickBooks.png"
+  },
+  {
+    "id": 42,
+    "title": "Redbooth",
+    "subtitle": "Redbooth (formerly Teambox), the cloud-based company redefining collaboration and busines communications.",
+    "logoPath": "Integrations/Redbooth.png"
+  },
+  {
+    "id": 43,
+    "title": "Redmine",
+    "subtitle": "Online project management software built on the Ruby on Rails framework specifically for small groups.",
+    "logoPath": "Integrations/Redmine.png"
+  },
+  {
+    "id": 44,
+    "title": "Remember The Milk",
+    "subtitle": "Take your tasks anywhere with this feature-packed application.",
+    "logoPath": "Integrations/RememberTheMilk.png"
+  },
+  {
+    "id": 45,
+    "title": "Smartsheet",
+    "subtitle": "Smartsheet is a web-based project and task management and work collaboration software.",
+    "logoPath": "Integrations/Smartsheet.png"
+  },
+  {
+    "id": 46,
+    "title": "Slack",
+    "subtitle": "Slack brings all your communication together in one place.",
+    "logoPath": "Integrations/Slack.png"
+  },
+  {
+    "id": 47,
+    "title": "Supportpal",
+    "subtitle": "Powerful self-hosted help desk solution that is simple and intuitive to use.",
+    "logoPath": "Integrations/Supportpal.png"
+  },
+  {
+    "id": 48,
+    "title": "Taskade",
+    "subtitle": "Taskade is reimagining the to-do list by making it visual, structured, and collaborative.",
+    "logoPath": "Integrations/Taskade.png"
+  },
+  {
+    "id": 49,
+    "title": "TasksBoard",
+    "subtitle": "Enhance your Google Tasks experience with TasksBoard, the essential tool for effortless task management.",
+    "logoPath": "Integrations/TasksBoard.png"
+  },
+  {
+    "id": 50,
+    "title": "Microsoft Teams",
+    "subtitle": "Microsoft Teams is the chat-based workspace that integrates all the people, content, and tools your team needs.",
+    "logoPath": "Integrations/MicrosoftTeams.png"
+  },
+  {
+    "id": 51,
+    "title": "Teamwork",
+    "subtitle": "Teamwork is project management software.",
+    "logoPath": "Integrations/Teamwork.png"
+  },
+  {
+    "id": 52,
+    "title": "Tick Tick",
+    "subtitle": "Your daily must-have to-do & task list to make all things done and get life well organized.",
+    "logoPath": "Integrations/TickTick.png"
+  },
+  {
+    "id": 53,
+    "title": "Todoist",
+    "subtitle": "Todoist is a task manager thats useful, fast and easy to use.",
+    "logoPath": "Integrations/Todoist.png"
+  },
+  {
+    "id": 54,
+    "title": "Trello",
+    "subtitle": "Trello is a collaboration tool that organizes your projects into boards.",
+    "logoPath": "Integrations/Trello.png"
+  },
+  {
+    "id": 55,
+    "title": "Zapier",
+    "subtitle": "Automate and Integrate TrackingTime with +5000 apps with Zapier.",
+    "logoPath": "Integrations/Zapier.png"
+  },
+  {
+    "id": 56,
+    "title": "Zendesk",
+    "subtitle": "Offers on-demand help desk software, covering customer support, trouble tickets and knowledge base.",
+    "logoPath": "Integrations/Zendesk.png"
+  },
+  {
+    "id": 57,
+    "title": "Activecollab",
+    "subtitle": "Project Management Tool in the Office & Productivity category.",
+    "logoPath": "Integrations/Activecollab.png"
+  },
+  {
+    "id": 58,
+    "title": "Agiled",
+    "subtitle": "Project Management software.",
+    "logoPath": "Integrations/Agiled.png"
+  },
+  {
+    "id": 59,
+    "title": "Assembla",
+    "subtitle": "Online workspaces with best of breed tools like Tasks & Issue Management, SVN & Git Repositories.",
+    "logoPath": "Integrations/Assembla.png"
+  },
+  {
+    "id": 60,
+    "title": "Axosoft",
+    "subtitle": "Agile based projecment management software.",
+    "logoPath": "Integrations/Axosoft.png"
+  }
+]

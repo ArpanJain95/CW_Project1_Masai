@@ -13,8 +13,8 @@ export const Comp1 = () => {
                 <div className='comp1Front'>    
                     <div className='leftCont'>
                         <p className='leftContP1'>TRACKINGTIME TIME TRACKER SOFTWARE</p>
-                        <h1 className='tagLine'>Automatic Time Tracking <br />for Productive Teams</h1>
-                        <p className='leftContP2'>Keeping your business running smoothly is our goal.<br/>Focus on business growth while we handle the rest.</p>
+                        <h1 className='tagLine'>Automatic Time Tracking for Productive Teams</h1>
+                        <p className='leftContP2'>Keeping your business running smoothly is our goal. Focus on business growth while we handle the rest.</p>
                         <div className='linkDiv'>
                             <Link to={isAuth ? "/dashboard" : "/login"} className='leftContLink'>Get Started <span class="material-symbols-outlined">east</span></Link>
                         </div>

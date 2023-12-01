@@ -1,11 +1,12 @@
 import React from 'react'
-import { NavDashboard } from '../components/Navbar,Footer/NavDashboard'
+import './Dashboard.css'
+import { DashComp1 } from '../components/DashboardComponents/DashComp1'
 
 export const Dashboard = () => {
     return (
-        <>
-        <NavDashboard />
-        <div><h1>Dashboard</h1></div>
-    </>
+        <div className='dashboardContainer'>
+            <DashComp1/>
+        </div>
+        
     )
 }
