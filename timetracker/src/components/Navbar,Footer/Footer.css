@@ -87,3 +87,14 @@ hr{
     font-size: 12px;
     font-weight: 500;
 }
+
+@media (max-width: 550px){
+    .fooTop{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fooRight{
+        margin-top: 50px;
+    }
+}

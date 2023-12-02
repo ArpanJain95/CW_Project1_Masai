@@ -103,3 +103,23 @@
     margin-left: -95px;
     margin-right: 40px;
 }
+
+@media (max-width: 600px){
+    .comp5Top h2{
+        font-size: 12px;
+    }
+    
+    .comp5Top h3{
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .comp5Right{
+        display: none;
+    }
+
+    .comp5Left ul{
+        margin: auto;
+    }
+    
+}

@@ -49,3 +49,33 @@
     margin-block: 50px;
     margin-inline: 10px;
 }
+
+@media (max-width: 600px){
+    .comp4Bottom{
+        width: 80%;
+    }
+
+    .comp4Top h2{
+        font-size: 12px;
+    }
+    
+    .comp4Top h3{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    
+    .comp4Top p{
+        font-size: 14px;
+        margin-inline: 12%;
+    }
+    
+    .comp4Top a{
+        text-decoration: none;
+        font-weight: 500;
+        color: #3a609b;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        transition: all 0.2s ease-in-out;
+    }
+}

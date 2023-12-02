@@ -192,3 +192,17 @@
         text-decoration: none;
     }
 }
+
+@media (max-width: 860px){
+    .navDashboard-container{
+        height: auto;
+        padding-block: 20px;
+    }
+
+    .navDashboard-left,
+    .navDashboard-menu,
+    .navDashboard-right{
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+}

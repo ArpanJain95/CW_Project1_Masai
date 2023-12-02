@@ -28,7 +28,13 @@ export const Comp4 = () => {
                     arrows: false,
                     autoplay: true,
                     type: "loop",
-                    drag: "free"
+                    drag: "free",
+                    mediaQuery: 'max',
+                    breakpoints: {
+                        860: {
+                            perPage: 4,
+                        }
+                    }
                 }}>
                     <SplideSlide>
                         <Link to={"/"} className='imageBox'>

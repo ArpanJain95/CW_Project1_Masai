@@ -47,3 +47,41 @@
     padding: 20px 6% 25px;
     color: #242954;
 }
+
+@media (max-width: 700px){
+    .comp1BlogTop h1{
+        font-size: 12px;
+    }
+
+    .blogBannerImg{
+        height: 140px;
+    }
+    
+    .comp1BlogTop h2{
+        font-size: 28px;
+    }
+/* bottom */
+    .comp1BlogBottom{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 18px;
+        margin-block: 70px;
+    }
+    
+    .blogCard{
+        text-align: center;
+        border-radius: 4px;
+        box-shadow: 0 6px 6px 0 rgba(0,0,0,.11);
+        overflow: hidden;
+    }
+    
+    .blogImgCont{
+        padding-inline: 35px;
+        box-sizing: border-box;
+        /* background-color: #3a609b; */
+    }
+    
+    .blogCardText{
+        padding: 20px 6% 25px;
+        color: #242954;
+    }
+}

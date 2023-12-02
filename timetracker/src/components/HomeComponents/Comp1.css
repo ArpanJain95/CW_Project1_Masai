@@ -50,6 +50,7 @@
     gap: 5px;
     width: 135px;
     transition: all 0.3s ease-in-out;
+    align-items: center;
 }
 
 .leftContLink:hover{
@@ -173,5 +174,10 @@
 
     .leftCont h1{
         line-height: 30px;
+    }
+
+    .leftContLink{
+        width: 110px;
+        font-size: 12px;
     }
 }
