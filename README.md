@@ -5,7 +5,7 @@
 
 ## Overview
 
-Tracking Time Clone is a collaborative, cloud-based time tracking service created as a project during Construct Week at Masai School. The project aims to replicate the design and functionality of the [Tracking Time](https://trackingtime.co/) website.
+Tracking Time is a project created during Construct Week at Masai School. The project aims to replicate the design and functionality of the [Tracking Time](https://trackingtime.co/) website.
 
 ## Live Demo
 
