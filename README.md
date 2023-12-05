@@ -1,7 +1,7 @@
 # CW_Project1_Masai_CAP05_067
 # Tracking Time Clone
 
-![Tracking Time Clone](![CWMasaiProject-TrackingTimeClone-Home](https://github.com/ArpanJain95/CW_Project1_Masai_CAP05_067/assets/137674757/66615a55-7be0-4f09-9c88-e09f118b96cf))
+![CWMasaiProject-TrackingTimeClone-Home](https://github.com/ArpanJain95/CW_Project1_Masai_CAP05_067/assets/137674757/4977802c-abd8-4e3c-bce0-ce18019b8661)
 
 ## Overview
 
